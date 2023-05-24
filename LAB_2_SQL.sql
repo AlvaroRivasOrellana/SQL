@@ -80,3 +80,5 @@ as 'Customer Details'  from customer;
 -- What's the length of the longest film title?
 select length(title) from film
 order by length(title) desc; -- The longest title has 27 characters.
+
+select * from language
